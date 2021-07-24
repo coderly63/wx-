@@ -1,0 +1,1 @@
+<button bindtap="bindGetUerProfile">登录</button>

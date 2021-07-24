@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2689720 */
+  src: url("//at.alicdn.com/t/font_2689720_seysos8qkqc.woff2?t=1626838816533")
+      format("woff2"),
+    url("//at.alicdn.com/t/font_2689720_seysos8qkqc.woff?t=1626838816533")
+      format("woff"),
+    url("//at.alicdn.com/t/font_2689720_seysos8qkqc.ttf?t=1626838816533")
+      format("truetype");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 收藏 */
+.icon-333:before {
+  content: "\e604";
+}
+/* 收货 */
+.icon-shouhuo:before {
+  content: "\e61b";
+}
+/* 订单 */
+.icon-icon-contract:before {
+  content: "\e601";
+}
+/* 客服 */
+.icon-fuwupingjia-kefu-select-copy:before {
+  content: "\e602";
+}
+/* 付款 */
+.icon-fukuan:before {
+  content: "\e7bd";
+}
+/* 分享 */
+.icon-fenxiang:before {
+  content: "\e625";
+}
+/* 退款 */
+.icon-tuikuan:before {
+  content: "\e6e5";
+}
+/* 收藏 */
+.icon-shoucang:before {
+  content: "\e603";
+}
+/* 购物车 */
+.icon-gouwuche-copy:before {
+  content: "\e600";
+}

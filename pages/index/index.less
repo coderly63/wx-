@@ -1,0 +1,40 @@
+.index_box {
+  swiper {
+    width: 750rpx;
+    height: 340rpx;
+    image {
+      width: 100%;
+    }
+  }
+  .index_cate {
+    padding: 20rpx;
+    display: flex;
+    navigator {
+      flex: 1;
+      image {
+        width: 100%;
+      }
+    }
+  }
+  .index_floor {
+    width: 100%;
+    .floor_item {
+      margin-top: 20rpx;
+      .floor_list {
+        overflow: hidden;
+        navigator {
+          float: left;
+          width: 33.33%;
+          padding: 5rpx;
+          &:nth-last-child(-n+4) {
+            height: (32.73vw * 386 / 232 / 2);
+          }
+          image {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

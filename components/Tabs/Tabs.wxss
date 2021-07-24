@@ -1,0 +1,14 @@
+.tabs {
+  display: flex;
+  justify-content: space-around;
+}
+.tabs .tab_item {
+  box-sizing: border-box;
+  width: 20%;
+  text-align: center;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.tabs .active {
+  border-bottom: 2px solid var(--themeColor);
+}
